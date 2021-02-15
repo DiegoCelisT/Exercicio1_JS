@@ -1,7 +1,7 @@
 let cor= prompt ("Escreva uma cor")
 let marca = prompt ("Escreva uma marca de carro ou moto que você goste")
 let número = prompt ("Escreva um número qualquer")
-let gênero = prompt ("Por último, escreva \"h\" se você é Homem, ou \"m\" se é Mulher")
+let gênero = prompt ("Por último, escreva \"h\" se você é homem, ou \"m\" se é mulher")
 Number(número)
 let baterias = número/7
 let capacitor = número/3
@@ -11,13 +11,13 @@ if (gênero=="m"){
     console.log ("")
     console.log ("As suas especificações técnicas são as seguintes:")
     console.table (
-        {
-            "Marca": marca,
+        {  
             "Modelo": `2077-${número}`,
-            "Gênero": "feminino",
-            "Cor de chassis": cor,
             "Baterias": `${baterias.toFixed(2)} gigawatts`,
             "Capacitor de Fluxo": `Urânio ${capacitor.toFixed(0)}`
+            "Gênero": "feminino",
+            "Marca": marca,
+            "Cor de chassis": cor,   
         }
     )
 }
@@ -27,12 +27,12 @@ else{
     console.log ("As suas especificações técnicas são as seguintes:")
     console.table (
         {
-            "Marca": marca,
             "Modelo": `2077-${número}`,
-            "Gênero": "masculino",
-            "Cor de chassis": cor,
             "Baterias": `${baterias.toFixed(2)} gigawatts`,
             "Capacitor de Fluxo": `Urânio ${capacitor.toFixed(0)}`
+            "Gênero": "masculino",
+            "Marca": marca,
+            "Cor de chassis": cor, 
         }
     )
 }

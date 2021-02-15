@@ -14,10 +14,10 @@ if (gênero=="m"){
         {  
             "Modelo": `2077-${número}`,
             "Baterias": `${baterias.toFixed(2)} gigawatts`,
-            "Capacitor de Fluxo": `Urânio ${capacitor.toFixed(0)}`
+            "Capacitor de Fluxo": `Urânio ${capacitor.toFixed(0)}`,
             "Gênero": "feminino",
             "Marca": marca,
-            "Cor de chassis": cor,   
+            "Cor de chassis": cor  
         }
     )
 }
@@ -29,10 +29,10 @@ else{
         {
             "Modelo": `2077-${número}`,
             "Baterias": `${baterias.toFixed(2)} gigawatts`,
-            "Capacitor de Fluxo": `Urânio ${capacitor.toFixed(0)}`
+            "Capacitor de Fluxo": `Urânio ${capacitor.toFixed(0)}`,
             "Gênero": "masculino",
             "Marca": marca,
-            "Cor de chassis": cor, 
+            "Cor de chassis": cor
         }
     )
 }

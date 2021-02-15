@@ -17,7 +17,7 @@ if (gênero=="m"){
             "Gênero": "feminino",
             "Cor de chassis": cor,
             "Baterias": `${baterias.toFixed(2)} gigawatts`,
-            "Capacitor de Fluxo": `Urânio ${capacitor.toFixed(1)}`
+            "Capacitor de Fluxo": `Urânio ${capacitor.toFixed(0)}`
         }
     )
 }
@@ -32,7 +32,7 @@ else{
             "Gênero": "masculino",
             "Cor de chassis": cor,
             "Baterias": `${baterias.toFixed(2)} gigawatts`,
-            "Capacitor de Fluxo": `Urânio ${capacitor.toFixed(1)}`
+            "Capacitor de Fluxo": `Urânio ${capacitor.toFixed(0)}`
         }
     )
 }
